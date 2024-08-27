@@ -184,18 +184,31 @@ const AuthForm = ({ type = 'sign-in' }: AuthFormProps) => {
                     </div>
                 </form>
             </Form>
-            <footer className="flex justify-center gap-2">
-                <p className="text-14 font-normal text-gray-600 dark:text-gray-200">
-                    {type === 'sign-in'
-                        ? "Don't have an account?"
-                        : 'Already have an account?'}
-                </p>
-                <Link
-                    href={type === 'sign-in' ? '/sign-up' : '/sign-in'}
-                    className="cursor-pointer font-semibold"
-                >
-                    {type === 'sign-in' ? 'Sign up' : 'Sign in'}
-                </Link>
+            <footer className="flex flex-col justify-center gap-2">
+                <div className="flex justify-center gap-2">
+                    <p className="text-14 font-normal text-gray-600 dark:text-gray-200">
+                        {type === 'sign-in'
+                            ? "Don't have an account?"
+                            : 'Already have an account?'}
+                    </p>
+                    <Link
+                        href={type === 'sign-in' ? '/sign-up' : '/sign-in'}
+                        className="cursor-pointer font-semibold"
+                    >
+                        {type === 'sign-in' ? 'Sign up' : 'Sign in'}
+                    </Link>
+                </div>
+                <div className="flex justify-center gap-2">
+                    <p className="text-14 font-normal text-gray-600 dark:text-gray-200">
+                        Forgot your password?
+                    </p>
+                    <Link
+                        href="/reset-password"
+                        className="cursor-pointer font-semibold"
+                    >
+                        Reset Password
+                    </Link>
+                </div>
             </footer>
         </section>
     )
