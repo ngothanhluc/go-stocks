@@ -17,12 +17,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
   ![image](https://github.com/user-attachments/assets/ac589509-597e-4b83-873f-7cf98c46ace3)
 ### Sign Up
 ![image](https://github.com/user-attachments/assets/dfef99e6-157f-4976-9a89-7bbc2d22fce3)
-
 ### Reset Password
 ![image](https://github.com/user-attachments/assets/393fea60-ac25-461d-824e-702ccd9070d6)
-
 ### Dashboard
 ![image](https://github.com/user-attachments/assets/de75e0a9-d75a-47a6-98ed-44a72f81ed32)
+### Choose the card of stock to change the chart data
+![image](https://github.com/user-attachments/assets/36551a0d-14d5-46f2-82b9-c6ac330f1e5c)
 ### Lightmode
 ![image](https://github.com/user-attachments/assets/238480b2-e35a-4a69-8fce-a3d9352d836c)
 ### Logout
