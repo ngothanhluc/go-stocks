@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Link project: https://go-stocks-orpin.vercel.app/
 
 ## Getting Started
 
@@ -6,31 +6,31 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+## Techstack: 
+  ### NextJS, ShadcnUI, Tailwind, Typescript, React Hook Form, Zod Validator
+  ### Mongoose, JWT, bcryptjs
+## Authentication
+### Sign In
+  ![image](https://github.com/user-attachments/assets/ac589509-597e-4b83-873f-7cf98c46ace3)
+### Sign Up
+![image](https://github.com/user-attachments/assets/dfef99e6-157f-4976-9a89-7bbc2d22fce3)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Reset Password
+![image](https://github.com/user-attachments/assets/393fea60-ac25-461d-824e-702ccd9070d6)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Dashboard
+![image](https://github.com/user-attachments/assets/de75e0a9-d75a-47a6-98ed-44a72f81ed32)
+### Lightmode
+![image](https://github.com/user-attachments/assets/238480b2-e35a-4a69-8fce-a3d9352d836c)
+### Logout
+![image](https://github.com/user-attachments/assets/817b9b5e-05ce-4ff5-9acd-e4ddcbb5e7f7)
+### Mobile View
+![image](https://github.com/user-attachments/assets/4c502d3f-e3e1-4e6b-8586-3df0c2fcb3f1)
+### Mobile Nav
+![image](https://github.com/user-attachments/assets/0853130a-2763-4e4a-ac2d-2d2fc3f0edf9)
+### Mobile Darkmode
+![image](https://github.com/user-attachments/assets/d66426c2-9a7c-4ef3-8c83-62bef2e8cdee)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
