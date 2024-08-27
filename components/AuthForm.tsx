@@ -72,7 +72,6 @@ const AuthForm = ({ type = 'sign-in' }: AuthFormProps) => {
                     toast({
                         title: 'Logged in successfully',
                     })
-                    router.push('/')
                 } else {
                     const body = await res.json()
                     toast({
@@ -81,6 +80,7 @@ const AuthForm = ({ type = 'sign-in' }: AuthFormProps) => {
                     })
                     return
                 }
+                router.push('/')
             }
         } catch (error) {
             console.error(error)
