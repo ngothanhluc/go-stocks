@@ -29,6 +29,9 @@ export async function middleware(req: NextRequest) {
             ) {
                 return NextResponse.redirect(new URL('/sign-in', req.url))
             }
+            if (req.nextUrl.pathname === '/') {
+                return NextResponse.redirect(new URL('/sign-in', req.url))
+            }
         }
 
         // If no conditions are met, continue to the requested route
